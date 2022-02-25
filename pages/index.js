@@ -1,14 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/app/Navbar";
-import Footer from "../components/app/Footer";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <section>
-      <Navbar />
+    <div>
       <h1>Home page</h1>
 
       <p>
@@ -25,8 +22,6 @@ export default function Home() {
       <Link href="/another">
         <a>See Another List</a>
       </Link>
-
-      <Footer />
-    </section>
+    </div>
   );
 }
