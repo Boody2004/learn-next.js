@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "../components/app/Navbar";
+import Footer from "../components/app/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <section>
+      <Navbar />
       <h1>Home page</h1>
 
       <p>
@@ -17,6 +20,7 @@ export default function Home() {
         minim et velit ad. Officia reprehenderit non occaecat irure. Elit
         laborum proident reprehenderit ad cupidatat dolore veniam ad aute.
       </p>
-    </div>
+      <Footer />
+    </section>
   );
 }
