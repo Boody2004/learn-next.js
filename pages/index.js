@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/app/Navbar";
 import Footer from "../components/app/Footer";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,6 +21,11 @@ export default function Home() {
         minim et velit ad. Officia reprehenderit non occaecat irure. Elit
         laborum proident reprehenderit ad cupidatat dolore veniam ad aute.
       </p>
+
+      <Link href="/another">
+        <a>See Another List</a>
+      </Link>
+
       <Footer />
     </section>
   );
