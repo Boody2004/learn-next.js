@@ -2,7 +2,6 @@ const About = () => {
   return (
     <div>
       <h1>About page</h1>
-
       <p>
         LoremTempor culpa ullamco occaecat quis nostrud occaecat officia ea
         aliqua aliquip dolore.Non velit ipsum nostrud pariatur et deserunt

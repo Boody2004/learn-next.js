@@ -6,9 +6,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <h1>Home page</h1>
-
-      <p>
+      <h1 className={styles.title}>Home page</h1>
+      <p className={styles.text}>
         LoremTempor culpa ullamco occaecat quis nostrud occaecat officia ea
         aliqua aliquip dolore.Non velit ipsum nostrud pariatur et deserunt
         adipisicing irure ipsum pariatur eiusmod id labore. Nulla eu tempor
@@ -18,9 +17,8 @@ export default function Home() {
         minim et velit ad. Officia reprehenderit non occaecat irure. Elit
         laborum proident reprehenderit ad cupidatat dolore veniam ad aute.
       </p>
-
       <Link href="/another">
-        <a>See Another List</a>
+        <a className={styles.btn}>See Another List</a>
       </Link>
     </div>
   );

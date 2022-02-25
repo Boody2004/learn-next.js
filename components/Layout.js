@@ -3,7 +3,7 @@ import Navbar from "./app/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <section>
+    <section className="content">
       <Navbar />
       {children}
       <Footer />
