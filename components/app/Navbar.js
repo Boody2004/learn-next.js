@@ -4,7 +4,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>Logo</h1>
+        <img
+          src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1645769574/logo_c2zqph.png"
+          width={60}
+          height={60}
+        />
       </div>
       <Link href="/">
         <a>Home</a>
